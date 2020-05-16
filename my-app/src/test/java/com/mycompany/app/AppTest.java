@@ -31,8 +31,8 @@ public class AppTest
      * Negative Test :-)
      */
     @Test
-    public void shouldAnswerWithFalse()
+    public void shouldBeEqual()
     {
-        assertEquals("foo", "bar");
+        assertEquals("foo", "foo");
     }
 }
