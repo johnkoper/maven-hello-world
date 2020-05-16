@@ -17,4 +17,22 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    /**
+     * Another Rigorous Test :-)
+     */
+    @Test
+    public void shouldAlsoAnswerWithTrue()
+    {
+        assertTrue( true );
+    }
+
+    /**
+     * Negative Test :-)
+     */
+    @Test
+    public void shouldAnswerWithFalse()
+    {
+        assertEquals("foo", "bar");
+    }
 }
